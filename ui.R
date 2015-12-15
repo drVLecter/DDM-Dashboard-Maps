@@ -10,15 +10,15 @@ fluidPage(
   sidebarPanel(
     
     #create variables "year“，we can add more here
-    selectInput('year', 'Year', c("1","2","3","4","5","6","7","8","9")),
+    selectInput('year', 'Years of Training', c("1","2","3","4","5","6","7","8","9")),
     
     selectInput('Documentation', 'Documentation', c("I-551 CU","I-551 F","I-688B","I-766 a10","I-94","I-94 order of supervision","Prima Facie")),
     
     selectInput("center", "Center:", 
-                choices= c("Concourse", "Coney_Island", "Crotona",
-                           "East_NY", "Fort_Greene", "Jamaica",
+                choices= c("Concourse", "Coney Island", "Crotona",
+                           "East NY", "Fort Greene", "Jamaica",
                            "Queens", "Refugee", "Richmond", "Rockaway",
-                           "St_Nicholas", "Washington_Heights", "Waverly",
+                           "St. Nicholas", "Washington Heights", "Waverly",
                            "Williamsburg"))
 ),
 
